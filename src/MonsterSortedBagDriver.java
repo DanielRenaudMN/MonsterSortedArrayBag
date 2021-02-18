@@ -3,7 +3,6 @@ import java.util.Iterator;
 public class MonsterSortedBagDriver {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		MonsterSortedArrayBag myBag = new MonsterSortedArrayBag(20);
 		myBag.add("a", 3);
 		myBag.add("b", 4);
