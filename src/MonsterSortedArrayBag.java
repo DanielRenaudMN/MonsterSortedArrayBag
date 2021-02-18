@@ -166,7 +166,6 @@ public class MonsterSortedArrayBag implements Iterable<Monster> {
 	 */
 	@Override
 	public Iterator<Monster> iterator() {
-		// TODO Auto-generated method stub
 		return new MonsterArrayBagIterator();
 	}
 
@@ -178,7 +177,6 @@ public class MonsterSortedArrayBag implements Iterable<Monster> {
 
 		@Override
 		public boolean hasNext() {
-			// TODO Auto-generated method stub
 			if (index < numMonsters) {
 				return true;
 			}
@@ -187,7 +185,6 @@ public class MonsterSortedArrayBag implements Iterable<Monster> {
 
 		@Override
 		public Monster next() {
-			// TODO Auto-generated method stub
 			Monster output = monsters[index];
 			index++;
 			return output;
