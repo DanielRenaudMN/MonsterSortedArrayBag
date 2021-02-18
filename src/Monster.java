@@ -91,7 +91,6 @@ public class Monster implements Comparable<Monster> {
 	 */
 	@Override
 	public int compareTo(Monster monster) {
-		// TODO Auto-generated method stub
 		if (this.name.compareToIgnoreCase(monster.getName()) < 0) {
 			return -1;
 		} else if (this.name.compareToIgnoreCase(monster.getName()) > 0) {
